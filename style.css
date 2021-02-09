@@ -1,0 +1,38 @@
+/* GENERAL*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f7f8f9;
+}
+
+header, main, nav {
+    background-color: white;
+}
+
+/* UTILITIES */
+.container {
+   width: 80vw;
+   margin:auto;
+
+}
+
+/* HEADER  CONTENT*/
+header h1 {
+    padding: 20px;
+    font-size: 40px;
+}
+header .logo {
+    vertical-align: middle;
+}
+
+
+
+/* MAIN CONTENT  */
+
+
+/* FOOTER CONTENT */
