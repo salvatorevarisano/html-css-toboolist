@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Toboolist</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- site header -->
@@ -15,15 +18,73 @@
             Toboolist
         </h1>
     </header>
+    <!-- main content  -->
+    <main>
+        <div class="wrap-container">
+            <div class="button-container">
+                <button class="add-task">Add Task</button>
+                <button class="add-section">Add section</button>
+            </div>
+        </div>
+        <div class="wrap-container">
+            <section>
+                <h2>&#9662; New Task</h2>
+                <ul>
+                    <li class="list-item">
+                        <span class="check done">&check;</span>
+                        Quarterly Newsletter <label class="editorial">Editorial</label>
+                    </li>
+                </ul>
+            </section>
 
-    <nav class="container">
-       
+            <section>
+                <h2>&#9662; Today</h2>
+                <ul>
+                    <li class="list-item">
+                        <span class="check done">&check;</span>
+                        Recruiting blog post <label class="editorial">Editorial</label>
+                    </li>
+                    <li class="list-item">
+                        <span class="check done">&check;</span>
+                        Mobile app luaunch <label class="q1-goals">Q1 Goals</label>
+                    </li>
+                    <li class="list-item">
+                        <span class="check fail">&#9587;</span>
+                        Interview John H. <label class="recruiting">Recruiting</label>
+                    </li>
+                    <li class="list-item">
+                        <span class="check done">&check;</span>
+                        Summit update to mobile storefronts <label class="mobile">Mobile</label>
+                    </li>
+                </ul>
+            </section>
 
-    </nav>
+            <section>
+                <h2>&#9662; Upcoming</h2>
+                <ul>
+                    <li class="list-item">
+                        <span class="check fail">&#9587;</span>
+                        Schedule meeting with Alex
+                    </li>
+                    <li class="list-item">
+                        <span class="check done">&check;</span>
+                        Hompage refresh <label class="website">Webdite</label>
+                    </li>
+                    <li class="list-item">
+                        <span class="check done">&check;</span>
+                        Onboard new Sales team members <label class="sales">Sales</label>
+                    </li>
 
-    <main class="container">
-       
+                    <li class="list-item">
+                        <span class="check done">&check;</span>
+                        Review editorial calendar <label class="editorial">Editorial</label>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </main>
-    
+    <footer>
+        made by Salvatore Varisano
+    </footer>
 </body>
 </html>
